@@ -1,0 +1,8 @@
+micronaut:
+  server:
+    port: 8086
+---
+consumer:
+  client:
+    host: "http://127.0.0.1"
+    port: "9293"
