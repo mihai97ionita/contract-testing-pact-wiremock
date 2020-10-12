@@ -71,7 +71,7 @@ compileTestKotlin {
 //this is for the provider side,
 test {
     useJUnitPlatform()
-    systemProperties['pact.rootDir'] = "$buildDir\\pacts"
+    systemProperties['pact.rootDir'] = "$buildDir/pacts"
 }
 
 //this publishing pact files

@@ -35,5 +35,5 @@ private fun addStates(topLevelObjects: MutableMap<Any, Any>, states: List<String
 }
 
 
-private fun pactFilePath(wire: WireMockPactGenerator) = File("").absolutePath+ "\\" + wire.pactLocation
+private fun pactFilePath(wire: WireMockPactGenerator) = File("").absolutePath+ "/" + wire.pactLocation
 private fun Any.toJson(): String = ObjectMapper().writerWithDefaultPrettyPrinter().writeValueAsString(this)
